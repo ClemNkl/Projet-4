@@ -137,7 +137,7 @@ p{
 }
 
 .plus_carre{
-	width: 60%;
+	width: 65%;
 	margin: auto;
 	padding: 20px;
 	background-color: antiquewhite;
@@ -197,5 +197,21 @@ footer{
 
 .page2 article{
 	display: block;
+}
+
+.coordonnees{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.adresse{
+	padding: 0px 20px;
+}
+
+iframe{
+	width: 350px;
+	height: 400px;
+	border: 2px solid antiquewhite;
 }
 /*Page 2 - Contact*/
