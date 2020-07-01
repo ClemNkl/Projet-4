@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+    padding: 0;
+	width: 100%;
+    background: #FFF;
+	font-family: "helvetica";
+    font-weight: 400;
+    color: #575757;
+	text-align: center;
+}
+
+a{
+	padding: 10px;
+	color: #575757;
+	text-decoration: none;
+}
+
+/* Entête et navigation */
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 100px;
+}
+
+.header_img{
+	height: 40px;
+	width: auto;
+}
+
+nav{
+	display: flex;
+}
+
+.scroll{
+	margin: 20px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+/* Entête et navigation*/
+
+/*Contenu du site*/
+article{
+	display: flex;
+	width: 100%;
+	min-height: 300px;
+}
+
+.btn{
+	width: 60px;
+	height: 20px;
+	padding: 10px 20px;
+	border-radius: 15px;
+	background: #F3976C;
+	text-align: center;
+    color: #FFFFFF;
+}
+
+.btn:hover{
+	background: #c27956;
+}
+
+h1{
+	font-size: 32px;
+	color:#F3976C;
+}
+
+h2{
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 0px;
+	
+}
+
+p{
+	text-align: center;
+}
+
+.filtre{
+	backdrop-filter: opacity(0.6) sepia(0.3);
+}
+
+/*Présentation*/
+.presentation{
+	display: block;
+	background: no-repeat top url("img/la-chouette-agence-banniere.jpg");
+	background-attachment: fixed;
+	height: 400px;
+} 
+
+.presentation div{
+	padding-top: 80px;
+	height: 320px;
+}
+
+.presentation_img{
+	width: 120px;
+}
+/*Présentaion*/
+
+/*Services*/
+.services{
+	justify-content: center;
+}
+
+.sous_service{
+	width: 20%;
+	padding: 20px;
+}
+
+.icon{
+	font-size: 60px;
+	color: #364577;
+}
+
+/*Services*/
+
+/*Témoignages*/
+.temoi{
+	justify-content: center;
+	align-content: center;
+	margin-top: 50px;
+}
+.temoignage{
+	width: 50%;
+}
+/*Témoignages*/
+
+/*Nos plus*/
+.plus{
+	display: block;
+	padding: 60px 0px;
+	background: no-repeat top url("img/image-de-presentation.bmp");
+}
+
+.plus_carre{
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	background-color: antiquewhite;
+}
+/*Nos plus*/
+
+/*Réalisations*/
+.realisations{
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.realisations div{
+	width: 300px;
+	margin: 20px;
+}
+
+.rea{
+	width: 250px;
+}
+/*Réalisations*/
+
+/*Contact*/
+.contact{
+	width: 100%;
+	background: no-repeat top/100% url("img/la-chouette-agence-banniere.jpg");
+}
+
+.contact div{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.contact div h2{
+	color: #F3976C; 
+}
+/*Contact*/
+/*Contenu du site*/
+
+/*Footer*/
+footer{
+	background-color: #F3976C;
+	padding: 10px 0px; 
+}
+
+.icon_rs{
+	margin: 10px 20px;
+	font-size: 30px;
+	color: #575757;
+}
+/*Footer*/
+
+/*Page 2 - Contact*/
+.bg_orange{
+	background-color: #F3976C;
+}
+
+.page2 article{
+	display: block;
+}
+/*Page 2 - Contact*/
