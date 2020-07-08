@@ -48,7 +48,7 @@ article{
 	min-height: 300px;
 }
 
-.btn{
+.btn, button{
 	width: 60px;
 	height: 20px;
 	padding: 10px 20px;
@@ -58,7 +58,7 @@ article{
     color: #FFFFFF;
 }
 
-.btn:hover{
+.btn:hover, button:hover{
 	background: #c27956;
 }
 
@@ -86,7 +86,8 @@ p{
 /*Présentation*/
 .presentation{
 	display: block;
-	background: no-repeat top url("img/la-chouette-agence-banniere.jpg");
+	background: no-repeat top/100% url("img/la-chouette-agence-banniere.jpg");
+	background-size: cover;
 	background-attachment: fixed;
 	height: 400px;
 } 
@@ -103,11 +104,12 @@ p{
 
 /*Services*/
 .services{
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .sous_service{
-	width: 20%;
+	width: 300px;
 	padding: 20px;
 }
 
@@ -133,7 +135,8 @@ p{
 .plus{
 	display: block;
 	padding: 60px 0px;
-	background: no-repeat top url("img/image-de-presentation.bmp");
+	background: no-repeat url("img/image-de-presentation.bmp");
+	background-size: cover;
 }
 
 .plus_carre{
@@ -148,6 +151,7 @@ p{
 .realisations{
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-bottom: 30px;
 }
 
 .realisations div{
@@ -158,12 +162,46 @@ p{
 .rea{
 	width: 250px;
 }
+
+.lien{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	top: 85px;
+	right: 105px;
+	background-color: white;
+	padding: 2px;
+	max-width: 38px;
+	height: 38px;
+	border-radius: 20px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.zoom{
+	transistion: all;
+	transition-duration: 1s;
+}
+
+.zoom:hover{
+	background-color: white;
+	transform: scale(1.2);
+}
+
+.zoom:hover .rea{
+	filter: opacity(0.4);
+}
+
+.zoom:hover .lien{
+	display: block;
+}
 /*Réalisations*/
 
 /*Contact*/
 .contact{
 	width: 100%;
-	background: no-repeat top/100% url("img/la-chouette-agence-banniere.jpg");
+	background: no-repeat url("img/la-chouette-agence-banniere.jpg");
+	background-size: cover;
 }
 
 .contact div{
@@ -190,18 +228,46 @@ footer{
 }
 /*Footer*/
 
-/*Page 2 - Contact*/
-.bg_orange{
-	background-color: #F3976C;
+/*Page 2*/
+/*Formulaire*/
+form div {
+	margin-top: 1em;
 }
 
+label {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+}
+
+input, textarea {
+	width: 50%;
+	max-width: 400px;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+textarea{
+	height: 5em;
+}
+
+button{
+	margin: 15px auto;
+	width: auto;
+	height: auto;
+	border: none;
+	font-size: 1em;
+}
+/*Formulaire*/
+
+/*Contact*/
 .page2 article{
 	display: block;
 }
 
 .coordonnees{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
@@ -211,7 +277,22 @@ footer{
 
 iframe{
 	width: 350px;
-	height: 400px;
+	height: 350px;
 	border: 2px solid antiquewhite;
 }
+/*Contact*/
+/*Page 2*/ 
+
+
+/*Média queries pour smartphones*/
+@media screen and (max-width: 720px) {
+	
 /*Page 2 - Contact*/
+	iframe{
+		width: 300px;
+		height: 200px;
+}
+/*Page 2 - Contact*/
+	
+}
+/*Média queries pour smartphones*/
