@@ -180,7 +180,7 @@ p{
 }
 
 .zoom{
-	transistion: all;
+	transition: all;
 	transition-duration: 1s;
 }
 
