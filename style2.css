@@ -76,7 +76,7 @@ p{
 /*Présentation*/
 .presentation{
 	display: block;
-	background: no-repeat top/100% url("img/la-chouette-agence-banniere.jpg");
+	background: no-repeat top/100% url("img/la-chouette-agence-banniere.jp2");
 	background-size: cover;
 	background-attachment: fixed;
 	height: 400px;
@@ -190,7 +190,7 @@ p{
 /*Contact*/
 .contact{
 	width: 100%;
-	background: no-repeat url("img/la-chouette-agence-banniere.jpg");
+	background: no-repeat url("img/la-chouette-agence-banniere.jp2");
 	background-size: cover;
 }
 
