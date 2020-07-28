@@ -7,21 +7,13 @@ body{
     background: #FFF;
 	font-family: "helvetica";
     font-weight: 400;
-<<<<<<< HEAD
     color: #303030;
-=======
-    color: #575757;
->>>>>>> parent of 9229c41... Modif accessibilité
 	text-align: center;
 }
 
 a{
 	padding: 10px;
-<<<<<<< HEAD
 	color: #303030;
-=======
-	color: #575757;
->>>>>>> parent of 9229c41... Modif accessibilité
 	text-decoration: none;
 }
 
@@ -41,13 +33,6 @@ header{
 nav{
 	display: flex;
 }
-
-.scroll{
-	margin: 20px;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-}
 /* Entête et navigation*/
 
 /*Contenu du site*/
@@ -62,30 +47,18 @@ article{
 	height: 20px;
 	padding: 10px 20px;
 	border-radius: 15px;
-<<<<<<< HEAD
 	background: #303030;
-=======
-	background: #F3976C;
->>>>>>> parent of 9229c41... Modif accessibilité
 	text-align: center;
     color: #FFF;
 }
 
 .btn:hover, button:hover{
-<<<<<<< HEAD
 	background: #4c4c4c;
-=======
-	background: #c27956;
->>>>>>> parent of 9229c41... Modif accessibilité
 }
 
 h1{
 	font-size: 32px;
-<<<<<<< HEAD
-	color: #303030;
-=======
-	color:#F3976C;
->>>>>>> parent of 9229c41... Modif accessibilité
+	color: #FFFFFF;
 }
 
 h2{
@@ -98,10 +71,6 @@ h2{
 
 p{
 	text-align: center;
-}
-
-.filtre{
-	backdrop-filter: opacity(0.6) sepia(0.3);
 }
 
 /*Présentation*/
@@ -231,29 +200,21 @@ p{
 }
 
 .contact div h2{
-<<<<<<< HEAD
-	color: #303030; 
-=======
-	color: #F3976C; 
->>>>>>> parent of 9229c41... Modif accessibilité
+	color: #FFFFFF; 
 }
 /*Contact*/
 /*Contenu du site*/
 
 /*Footer*/
 footer{
-	background-color: #F3976C;
+	background-color: #F59E75;
 	padding: 10px 0px; 
 }
 
 .icon_rs{
 	margin: 10px 20px;
 	font-size: 30px;
-<<<<<<< HEAD
 	color: #303030;
-=======
-	color: #575757;
->>>>>>> parent of 9229c41... Modif accessibilité
 }
 /*Footer*/
 
